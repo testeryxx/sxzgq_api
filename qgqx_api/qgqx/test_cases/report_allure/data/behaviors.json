@@ -1,0 +1,428 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "F01_统计分析",
+    "children" : [ {
+      "name" : "F01S01_全部项目查询",
+      "children" : [ {
+        "name" : "ID:(3)-5个执法中队项目统计",
+        "uid" : "66bb9e385ab95509",
+        "parentUid" : "f2a3f87217064f24387ed864ef6414d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351282887,
+          "stop" : 1711351283041,
+          "duration" : 154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "f2a3f87217064f24387ed864ef6414d5"
+    }, {
+      "name" : "F01S02_列表统计",
+      "children" : [ {
+        "name" : "ID:(4)-列表统计",
+        "uid" : "41312a5d9b9c5dbd",
+        "parentUid" : "51c0ae94ed91af930a3a639e3eedefa1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351283044,
+          "stop" : 1711351283161,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "51c0ae94ed91af930a3a639e3eedefa1"
+    }, {
+      "name" : "F01S03_区域统计",
+      "children" : [ {
+        "name" : "ID:(5)-市级下面区域列表统计",
+        "uid" : "42bcb421b545cd7d",
+        "parentUid" : "d5928e27429bb30e274b1702c18555b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351283165,
+          "stop" : 1711351283296,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "d5928e27429bb30e274b1702c18555b3"
+    }, {
+      "name" : "F01S04_下级区域列表",
+      "children" : [ {
+        "name" : "ID:(6)-指定区域下级区域信息-列表",
+        "uid" : "b127c3bcb196a1ec",
+        "parentUid" : "51ba49714819384e7b79fb3be5332c55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351283299,
+          "stop" : 1711351283397,
+          "duration" : 98
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "51ba49714819384e7b79fb3be5332c55"
+    }, {
+      "name" : "F01S05_组织结构列表",
+      "children" : [ {
+        "name" : "ID:(7)-组织机构列表（提供给当前权限）",
+        "uid" : "99850661629a8bf3",
+        "parentUid" : "c18f87f5fd641818590054917a603be7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351283400,
+          "stop" : 1711351283523,
+          "duration" : 123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "c18f87f5fd641818590054917a603be7"
+    }, {
+      "name" : "F01S06_下级区域列表",
+      "children" : [ {
+        "name" : "ID:(8)-指定区域下级区域信息-列表",
+        "uid" : "6f01b8e8c769469c",
+        "parentUid" : "1c4273ad73941cdde7546096e58fcd5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351283527,
+          "stop" : 1711351283636,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "1c4273ad73941cdde7546096e58fcd5b"
+    }, {
+      "name" : "F01S07_下级区域列表",
+      "children" : [ {
+        "name" : "ID:(9)-指定区域下级区域信息-列表",
+        "uid" : "e18776879129c5f",
+        "parentUid" : "0871053f1bafc9462e1d0259a54966a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351283639,
+          "stop" : 1711351283740,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "0871053f1bafc9462e1d0259a54966a8"
+    } ],
+    "uid" : "da70e09f0ff0fba32df071fd907e8372"
+  }, {
+    "name" : "F02_项目管理",
+    "children" : [ {
+      "name" : "F02S01_项目管理查询",
+      "children" : [ {
+        "name" : "ID:(10)-项目管理查询",
+        "uid" : "adc2ce6ec29d1667",
+        "parentUid" : "f140d6f8a3803d6656bdb91a85fd8d58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351283743,
+          "stop" : 1711351285738,
+          "duration" : 1995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "f140d6f8a3803d6656bdb91a85fd8d58"
+    } ],
+    "uid" : "600b738c62c088c841136f6e6cdc9341"
+  }, {
+    "name" : "F03_项目审核",
+    "children" : [ {
+      "name" : "F03S01_新进项目审核查询",
+      "children" : [ {
+        "name" : "ID:(11)-新进项目审核查询",
+        "uid" : "dcc7497a3cb1eb20",
+        "parentUid" : "aaa043b2a81d377e7ef3a8feabdf654d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351285741,
+          "stop" : 1711351286030,
+          "duration" : 289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "aaa043b2a81d377e7ef3a8feabdf654d"
+    }, {
+      "name" : "F03S02_项目状态变更审核查询",
+      "children" : [ {
+        "name" : "ID:(12)-项目状态变更审核查询",
+        "uid" : "765fa6c9d8a8d3d3",
+        "parentUid" : "7b02a6dc10ef753bbbc5317ed0181e4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351286033,
+          "stop" : 1711351286211,
+          "duration" : 178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "7b02a6dc10ef753bbbc5317ed0181e4f"
+    }, {
+      "name" : "F03S03_保证金备案审核查询",
+      "children" : [ {
+        "name" : "ID:(13)-保证金备案审核查询",
+        "uid" : "7472f3b4e52995d2",
+        "parentUid" : "cc02378407bb45a0d48c82595d5dd0ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351286214,
+          "stop" : 1711351286420,
+          "duration" : 206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "cc02378407bb45a0d48c82595d5dd0ca"
+    } ],
+    "uid" : "25a980d79b0bbfb77240f725616dae64"
+  }, {
+    "name" : "F04_人员信息",
+    "children" : [ {
+      "name" : "F04S01_建筑工人查询",
+      "children" : [ {
+        "name" : "ID:(14)-建筑工人查询",
+        "uid" : "764fd3b4bc1493d0",
+        "parentUid" : "fe156f8b91d7a3b64e1e0d22cf7c9dc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351286429,
+          "stop" : 1711351288160,
+          "duration" : 1731
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "fe156f8b91d7a3b64e1e0d22cf7c9dc0"
+    }, {
+      "name" : "F04S02_劳资专管员查询",
+      "children" : [ {
+        "name" : "ID:(15)-劳资专管员查询",
+        "uid" : "a48b8accfce1bf73",
+        "parentUid" : "8cd2d7b89b642163ef30d77bcf5ce54c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351288164,
+          "stop" : 1711351288491,
+          "duration" : 327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "8cd2d7b89b642163ef30d77bcf5ce54c"
+    }, {
+      "name" : "F04S03_项目经理查询",
+      "children" : [ {
+        "name" : "ID:(16)-项目经理查询",
+        "uid" : "613cd8999e2e5c32",
+        "parentUid" : "70dc5d05075f50f0ca57f2a79fc09209",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351288494,
+          "stop" : 1711351290874,
+          "duration" : 2380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "70dc5d05075f50f0ca57f2a79fc09209"
+    } ],
+    "uid" : "caf48d3d2f45be351fd12298f45e3b00"
+  }, {
+    "name" : "F05_案件流转",
+    "children" : [ {
+      "name" : "F05S01_案件流转查询",
+      "children" : [ {
+        "name" : "ID:(17)-案件流转查询",
+        "uid" : "6d9fb0668119dcf4",
+        "parentUid" : "75f08ef022a65337d364e03c375fad8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351290877,
+          "stop" : 1711351291004,
+          "duration" : 127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "75f08ef022a65337d364e03c375fad8a"
+    } ],
+    "uid" : "af16c2040e9173ee9af8facf1cff52c8"
+  }, {
+    "name" : "F06_预警管理",
+    "children" : [ {
+      "name" : "F06S01_未按时办理保证金查询",
+      "children" : [ {
+        "name" : "ID:(18)-未按时办理保证金查询",
+        "uid" : "6f21c297da79367c",
+        "parentUid" : "0611de547aaecf32fef861a11e810e8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351291007,
+          "stop" : 1711351291246,
+          "duration" : 239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "0611de547aaecf32fef861a11e810e8a"
+    }, {
+      "name" : "F06S02_未按时办理专户查询",
+      "children" : [ {
+        "name" : "ID:(19)-未按时办理专户查询",
+        "uid" : "2e705f002591f707",
+        "parentUid" : "9a4339adc16cecab49721b7cd453b2e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351291250,
+          "stop" : 1711351291479,
+          "duration" : 229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "9a4339adc16cecab49721b7cd453b2e4"
+    }, {
+      "name" : "F06S03_未按时落实维权告示牌查询",
+      "children" : [ {
+        "name" : "ID:(20)-未按时落实维权告示牌查询",
+        "uid" : "27d7a4c215497068",
+        "parentUid" : "932e8ce706b33bc52ba64c226b9c7025",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351291482,
+          "stop" : 1711351291641,
+          "duration" : 159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "932e8ce706b33bc52ba64c226b9c7025"
+    } ],
+    "uid" : "dc707c7af67ed617e987f69adc910665"
+  }, {
+    "name" : "F07_单位信息",
+    "children" : [ {
+      "name" : "F07S01_施工总包单位查询",
+      "children" : [ {
+        "name" : "ID:(21)-施工总包单位查询",
+        "uid" : "64532ac2f6d08721",
+        "parentUid" : "f32deebc3dd813e60779484a6055e2df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351291652,
+          "stop" : 1711351292304,
+          "duration" : 652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "f32deebc3dd813e60779484a6055e2df"
+    }, {
+      "name" : "F07S02_分包单位查询",
+      "children" : [ {
+        "name" : "ID:(22)-分包单位查询",
+        "uid" : "4b2597557820a67c",
+        "parentUid" : "f304142b0d8479e56adeaff7fe790ec2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351292309,
+          "stop" : 1711351295748,
+          "duration" : 3439
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "f304142b0d8479e56adeaff7fe790ec2"
+    }, {
+      "name" : "F07S03_建设单位查询",
+      "children" : [ {
+        "name" : "ID:(23)-建设单位查询",
+        "uid" : "e75961cb8ef20c93",
+        "parentUid" : "0c86c4234dc53ba558865b42b5107ba4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351295752,
+          "stop" : 1711351299851,
+          "duration" : 4099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "0c86c4234dc53ba558865b42b5107ba4"
+    } ],
+    "uid" : "39da80959095402665a3e0117a60b777"
+  }, {
+    "name" : "F08_系统设置",
+    "children" : [ {
+      "name" : "F08S01_用户管理查询",
+      "children" : [ {
+        "name" : "ID:(24)-用户管理查询",
+        "uid" : "54d7621d3331edb0",
+        "parentUid" : "360ef38e11baf3921af6a9a90c41b827",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351299854,
+          "stop" : 1711351299948,
+          "duration" : 94
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "360ef38e11baf3921af6a9a90c41b827"
+    }, {
+      "name" : "F08S02_角色管理查询",
+      "children" : [ {
+        "name" : "ID:(25)-角色管理查询",
+        "uid" : "b13a6ead60879132",
+        "parentUid" : "ca63ef2699ff9e3c3e36b4c4809ff233",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711351299959,
+          "stop" : 1711351300084,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'[]'" ]
+      } ],
+      "uid" : "ca63ef2699ff9e3c3e36b4c4809ff233"
+    } ],
+    "uid" : "fb675a609dff5ca1cdb8c0f6240d5fff"
+  } ]
+}

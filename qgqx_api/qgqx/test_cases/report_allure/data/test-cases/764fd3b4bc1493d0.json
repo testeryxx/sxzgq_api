@@ -1,0 +1,129 @@
+{
+  "uid" : "764fd3b4bc1493d0",
+  "name" : "ID:(14)-建筑工人查询",
+  "fullName" : "test_check.TestCheck#test_project_check",
+  "historyId" : "4fd7e9bd9d539eb810106f4a95880088",
+  "time" : {
+    "start" : 1711351286429,
+    "stop" : 1711351288160,
+    "duration" : 1731
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "------发送post请求------",
+      "time" : {
+        "start" : 1711351286429,
+        "stop" : 1711351288096,
+        "duration" : 1667
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://192.168.1.149:5500/api/v1/person/workerList'"
+      }, {
+        "name" : "data",
+        "value" : "'{pageNo: 1, pageSize: 10, provinceCode: \"140000\", cityCode: \"140171\"}\n'"
+      }, {
+        "name" : "json",
+        "value" : "None"
+      }, {
+        "name" : "headers",
+        "value" : "{'Content-Type': 'application/json;charset=UTF-8', 'X-Token': '89efc1a5e2ce421abf877f6d6f97a78e'}"
+      }, {
+        "name" : "params",
+        "value" : "None"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "------提取响应数据------",
+      "time" : {
+        "start" : 1711351288096,
+        "stop" : 1711351288098,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "'{\"code\":0,\"data\":{\"countId\":\"\",\"current\":\"1\",\"hitCount\":false,\"maxLimit\":null,\"optimizeCountSql\":true,\"orders\":[],\"pages\":\"10\",\"records\":[{\"address\":\"zzz\",\"addressStay\":\"\",\"authLevel\":null,\"bankCode\":\"\",\"bankName\":\"\",\"bankNo\":\"\",\"bankType\":null,\"birthday\":\"2023-08-04 00:00:00\",\"cityCode\":\"\",\"companyId\":null,\"companyName\":\"山西宝成劳务有限责任公司\",\"companyType\":99,\"contractDepartTime\":\"\",\"contractEndTime\":\"\",\"contractSignTime\":\"0000-00-00\",\"contractStartTime\":\"\",\"contractType\":-1,\"contractUrl\":\"\",\"countyCode\":\"\",\"dateSource\":99,\"enforce\":\"执法一中队\",\"entryTime\":\"\",\"id\":\"1731564693052829698\",\"idCardBack\":\"\",\"idCardEnd\":\"\",\"idCardFace\":\"\",\"idCardNo\":\"411481198811******\",\"idCardOrg\":\"\",\"idCardStart\":\"\",\"isInsured\":null,\"isJob\":1,\"isPoor\":null,\"licUrl\":\"\",\"memoPoor\":\"\",\"monthAttenNum\":null,\"name\":\"困\",\"nation\":\"15\",\"nativePlace\":\"河南省\",\"payDay\":0,\"personId\":null,\"phone\":\"152****2222\",\"projectAreaName\":\"浙江省温州市乐清市\",\"projectId\":\"1731544834126491650\",\"projectName\":\"乐清市希伯来服装机械设备有限公司3#车间\",\"provinceCode\":\"330300\",\"provinceName\":\"浙江省\",\"realGrade\":99,\"sex\":1,\"status\":null,\"streetCode\":\"\",\"typeCulture\":1,\"urgentLinkman\":\"\",\"urgentLinkmanPhone\":\"\",\"userPhoto\":\"\",\"wage\":null,\"wageType\":-1,\"workType\":150},{\"address\":\"zzz\",\"addressStay\":\"\",\"authLevel\":null,\"bankCode\":\"\",\"bankName\":\"\",\"bankNo\":\"\",\"bankType\":null,\"birthday\":\"2023-08-02 00:00:00\",\"cityCode\":\"\",\"companyId\":null,\"companyName\":\"山西宝成劳务有限责任公司\",\"companyType\":99,\"contractDepartTime\":\"\",\"contractEndTime\":\"\",\"contractSignTime\":\"0000-00-00\",\"contractStartTime\":\"\",\"contractType\":-1,\"contractUrl\":\"\",\"countyCode\":\"\",\"dateSource\":99,\"enforce\":\"执法一中队\",\"entryTime\":\"\",\"id\":\"1731564692151054337\",\"idCardBack\":\"\",\"idCardEnd\":\"\",\"idCardFace\":\"\",\"idCardNo\":\"110101199003******\",\"idCardOrg\":\"\",\"idCardStart\":\"\",\"isInsured\":null,\"isJob\":1,\"isPoor\":null,\"licUrl\":\"\",\"memoPoor\":\"\",\"monthAttenNum\":null,\"name\":\"让他\",\"nation\":\"29\",\"nativePlace\":\"北京市\",\"payDay\":0,\"personId\":null,\"phone\":\"155****5544\",\"projectAreaName\":\"浙江省温州市生态园管理委员会\",\"projectId\":\"1731544823703646210\",\"projectName\":\"温州民营经济科技产业基地(永兴南园)经五路市政道路工程\",\"provinceCode\":\"330300\",\"provinceName\":\"浙江省\",\"realGrade\":99,\"sex\":1,\"status\":null,\"streetCode\":\"\",\"typeCulture\":1,\"urgentLinkman\":\"\",\"urgentLinkmanPhone\":\"\",\"userPhoto\":\"\",\"wage\":null,\"wageType\":-1,\"workType\":150},{\"address\":\"zzz\",\"addressStay\":\"\",\"authLevel\":null,\"bankCode\":\"\",\"bankName\":\"\",\"bankNo\":\"\",\"bankType\":null,\"birthday\":\"1965-06-13 00:00:00\",\"cityCode\":\"\",\"companyId\":null,\"companyName\":\"山西宝成劳务有限责任公司\",\"companyType\":99,\"contractDepartTime\":\"\",\"contractEndTime\":\"\",\"contractSignTime\":\"0000-00-00\",\"contractStartTime\":\"\",\"contractType\":-1,\"contractUrl\":\"\",\"countyCode\":\"\",\"dateSource\":99,\"enforce\":\"执法一中队\",\"entryTime\":\"\",\"id\":\"1731564691186364418\",\"idCardBack\":\"\",\"idCardEnd\":\"\",\"idCardFace\":\"\",\"idCardNo\":\"211381199105******\",\"idCardOrg\":\"\",\"idCardStart\":\"\",\"isInsured\":null,\"isJob\":1,\"isPoor\":null,\"licUrl\":\"\",\"memoPoor\":\"\",\"monthAttenNum\":null,\"name\":\"龙\",\"nation\":\"1\",\"nativePlace\":\"辽宁省\",\"payDay\":0,\"personId\":null,\"phone\":\"155****5555\",\"projectAreaName\":\"浙江省温州市浙南产业集聚区（经开区）\",\"projectId\":\"1731544810365759489\",\"projectName\":\"龙湾区南都家园4#-8#楼地下室及主体工程\",\"provinceCode\":\"330300\",\"provinceName\":\"浙江省\",\"realGrade\":99,\"sex\":1,\"status\":null,\"streetCode\":\"\",\"typeCulture\":1,\"urgentLinkman\":\"\",\"urgentLinkmanPhone\":\"\",\"userPhoto\":\"\",\"wage\":null,\"wageType\":-1,\"workType\":160},{\"address\":\"zzz\",\"addressStay\":\"\",\"authLevel\":null,\"bankCode\":\"\",\"bankName\":\"\",\"bankNo\":\"\",\"bankType\":null,\"birthday\":\"2023-08-01 00:00:00\",\"cityCode\":\"\",\"companyId\":null,\"companyName\":\"山西宝成劳务有限责任公司\",\"companyType\":99,\"contractDepartTime\":\"\",\"contractEndTime\":\"\",\"contractSignTime\":\"0000-00-00\",\"contractStartTime\":\"\",\"contractType\":-1,\"contractUrl\":\"\",\"countyCode\":\"\",\"dateSource\":99,\"enforce\":\"执法一中队\",\"entryTime\":\"\",\"id\":\"1731564690079068162\",\"idCardBack\":\"\",\"idCardEnd\":\"\",\"idCardFace\":\"\",\"idCardNo\":\"420101197703******\",\"idCardOrg\":\"\",\"idCardStart\":\"\",\"isInsured\":null,\"isJob\":1,\"isPoor\":null,\"licUrl\":\"\",\"memoPoor\":\"\",\"monthAttenNum\":null,\"name\":\"22222\",\"nation\":\"12\",\"nativePlace\":\"湖北省\",\"payDay\":0,\"personId\":null,\"phone\":\"136****4921\",\"projectAreaName\":\"浙江省温州市鹿城区\",\"projectId\":\"1731544801503195138\",\"projectName\":\"瑶溪镇黄山村三产安置房（二期）工程\",\"provinceCode\":\"330300\",\"provinceName\":\"浙江省\",\"realGrade\":99,\"sex\":1,\"status\":null,\"streetCode\":\"\",\"typeCulture\":1,\"urgentLinkman\":\"\",\"urgentLinkmanPhone\":\"\",\"userPhoto\":\"\",\"wage\":null,\"wageType\":-1,\"workType\":120},{\"address\":\"zzz\",\"addressStay\":\"\",\"authLevel\":null,\"bankCode\":\"\",\"bankName\":\"\",\"bankNo\":\"\",\"bankType\":null,\"birthday\":\"2023-08-01 00:00:00\",\"cityCode\":\"\",\"companyId\":null,\"companyName\":\"山西宝成劳务有限责任公司\",\"companyType\":99,\"contractDepartTime\":\"\",\"contractEndTime\":\"\",\"contractSignTime\":\"0000-00-00\",\"contractStartTime\":\"\",\"contractType\":-1,\"contractUrl\":\"\",\"countyCode\":\"\",\"dateSource\":99,\"enforce\":\"执法一中队\",\"entryTime\":\"\",\"id\":\"1731564688049025026\",\"idCardBack\":\"\",\"idCardEnd\":\"\",\"idCardFace\":\"\",\"idCardNo\":\"420101197501******\",\"idCardOrg\":\"\",\"idCardStart\":\"\",\"isInsured\":null,\"isJob\":1,\"isPoor\":null,\"licUrl\":\"\",\"memoPoor\":\"\",\"monthAttenNum\":null,\"name\":\"韩悦萧\",\"nation\":\"18\",\"nativePlace\":\"湖北省\",\"payDay\":0,\"personId\":null,\"phone\":\"157****6731\",\"projectAreaName\":\"\",\"projectId\":\"1731544728358727681\",\"projectName\":\"测试项目13123111112\",\"provinceCode\":\"330300\",\"provinceName\":\"浙江省\",\"realGrade\":99,\"sex\":1,\"status\":null,\"streetCode\":\"\",\"typeCulture\":1,\"urgentLinkman\":\"\",\"urgentLinkmanPhone\":\"\",\"userPhoto\":\"\",\"wage\":null,\"wageType\":-1,\"workType\":110},{\"address\":\"zzz\",\"addressStay\":\"\",\"authLevel\":null,\"bankCode\":\"\",\"bankName\":\"\",\"bankNo\":\"\",\"bankType\":null,\"birthday\":\"2023-08-01 00:00:00\",\"cityCode\":\"\",\"companyId\":null,\"companyName\":\"山西宝成劳务有限责任公司\",\"companyType\":99,\"contractDepartTime\":\"\",\"contractEndTime\":\"\",\"contractSignTime\":\"0000-00-00\",\"contractStartTime\":\"\",\"contractType\":-1,\"contractUrl\":\"\",\"countyCode\":\"\",\"dateSource\":99,\"enforce\":\"执法一中队\",\"entryTime\":\"\",\"id\":\"1731564685423390721\",\"idCardBack\":\"\",\"idCardEnd\":\"\",\"idCardFace\":\"\",\"idCardNo\":\"420101197005******\",\"idCardOrg\":\"\",\"idCardStart\":\"\",\"isInsured\":null,\"isJob\":1,\"isPoor\":null,\"licUrl\":\"\",\"memoPoor\":\"\",\"monthAttenNum\":null,\"name\":\"苏霸琪\",\"nation\":\"10\",\"nativePlace\":\"湖北省\",\"payDay\":0,\"personId\":null,\"phone\":\"139****7561\",\"projectAreaName\":\"北京市市辖区东城区\",\"projectId\":\"1731543482340061185\",\"projectName\":\"第一个源头项目\",\"provinceCode\":\"330300\",\"provinceName\":\"北京市\",\"realGrade\":99,\"sex\":1,\"status\":null,\"streetCode\":\"\",\"typeCulture\":1,\"urgentLinkman\":\"\",\"urgentLinkmanPhone\":\"\",\"userPhoto\":\"\",\"wage\":null,\"wageType\":-1,\"workType\":130},{\"address\":\"zzz\",\"addressStay\":\"\",\"authLevel\":null,\"bankCode\":\"\",\"bankName\":\"\",\"bankNo\":\"\",\"bankType\":null,\"birthday\":\"2023-08-02 00:00:00\",\"cityCode\":\"\",\"companyId\":null,\"companyName\":\"山西宝成劳务有限责任公司\",\"companyType\":99,\"contractDepartTime\":\"\",\"contractEndTime\":\"\",\"contractSignTime\":\"0000-00-00\",\"contractStartTime\":\"\",\"contractType\":-1,\"contractUrl\":\"\",\"countyCode\":\"\",\"dateSource\":99,\"enforce\":\"执法一中队\",\"entryTime\":\"\",\"id\":\"1731564684370620418\",\"idCardBack\":\"\",\"idCardEnd\":\"\",\"idCardFace\":\"\",\"idCardNo\":\"420101199106******\",\"idCardOrg\":\"\",\"idCardStart\":\"\",\"isInsured\":null,\"isJob\":1,\"isPoor\":null,\"licUrl\":\"\",\"memoPoor\":\"\",\"monthAttenNum\":null,\"name\":\"范润鲍\",\"nation\":\"12\",\"nativePlace\":\"湖北省\",\"payDay\":0,\"personId\":null,\"phone\":\"135****7423\",\"projectAreaName\":\"河北省秦皇岛市北戴河区\",\"projectId\":\"1731515202044014593\",\"projectName\":\"1\",\"provinceCode\":\"330300\",\"provinceName\":\"河北省\",\"realGrade\":99,\"sex\":1,\"status\":null,\"streetCode\":\"\",\"typeCulture\":1,\"urgentLinkman\":\"\",\"urgentLinkmanPhone\":\"\",\"userPhoto\":\"\",\"wage\":null,\"wageType\":-1,\"workType\":100},{\"address\":\"zzz\",\"addressStay\":\"\",\"authLevel\":null,\"bankCode\":\"\",\"bankName\":\"\",\"bankNo\":\"\",\"bankType\":null,\"birthday\":\"2023-08-02 00:00:00\",\"cityCode\":\"\",\"companyId\":null,\"companyName\":\"山西宝成劳务有限责任公司\",\"companyType\":99,\"contractDepartTime\":\"\",\"contractEndTime\":\"\",\"contractSignTime\":\"0000-00-00\",\"contractStartTime\":\"\",\"contractType\":-1,\"contractUrl\":\"\",\"countyCode\":\"\",\"dateSource\":99,\"enforce\":\"执法一中队\",\"entryTime\":\"\",\"id\":\"1731564683259129857\",\"idCardBack\":\"\",\"idCardEnd\":\"\",\"idCardFace\":\"\",\"idCardNo\":\"420101199505******\",\"idCardOrg\":\"\",\"idCardStart\":\"\",\"isInsured\":null,\"isJob\":1,\"isPoor\":null,\"licUrl\":\"\",\"memoPoor\":\"\",\"monthAttenNum\":null,\"name\":\"苏风嘉\",\"nation\":\"1\",\"nativePlace\":\"湖北省\",\"payDay\":0,\"personId\":null,\"phone\":\"150****5797\",\"projectAreaName\":\"浙江省台州市椒江区\",\"projectId\":\"1731515200911552513\",\"projectName\":\"台州市椒江区洪家街道一江山大道北侧、白云山南路东侧地块项目（桩基础阶段）\",\"provinceCode\":\"330300\",\"provinceName\":\"浙江省\",\"realGrade\":99,\"sex\":1,\"status\":null,\"streetCode\":\"\",\"typeCulture\":1,\"urgentLinkman\":\"\",\"urgentLinkmanPhone\":\"\",\"userPhoto\":\"\",\"wage\":null,\"wageType\":-1,\"workType\":120},{\"address\":\"sdfw\",\"addressStay\":\"\",\"authLevel\":null,\"bankCode\":\"\",\"bankName\":\"\",\"bankNo\":\"\",\"bankType\":null,\"birthday\":\"19900307\",\"cityCode\":\"\",\"companyId\":null,\"companyName\":\"山西宝成劳务有限责任公司\",\"companyType\":99,\"contractDepartTime\":\"\",\"contractEndTime\":\"\",\"contractSignTime\":\"0000-00-00\",\"contractStartTime\":\"\",\"contractType\":-1,\"contractUrl\":\"\",\"countyCode\":\"\",\"dateSource\":99,\"enforce\":\"执法一中队\",\"entryTime\":\"\",\"id\":\"1730184003182669826\",\"idCardBack\":\"\",\"idCardEnd\":\"\",\"idCardFace\":\"\",\"idCardNo\":\"110101199003******\",\"idCardOrg\":\"\",\"idCardStart\":\"\",\"isInsured\":null,\"isJob\":2,\"isPoor\":null,\"licUrl\":\"\",\"memoPoor\":\"\",\"monthAttenNum\":null,\"name\":\"sde\",\"nation\":\"1\",\"nativePlace\":\"北京市\",\"payDay\":0,\"personId\":null,\"phone\":\"131****2112\",\"projectAreaName\":\"河北省唐山市丰润区\",\"projectId\":\"1730177446898302978\",\"projectName\":\"年产30万吨高镍型动力电池用三元正极联动年产40万吨前驱体项目（一期）年产10万吨高镍型动力电池用三元前驱体材料建设项目12\",\"provinceCode\":\"110000\",\"provinceName\":\"河北省\",\"realGrade\":99,\"sex\":1,\"status\":null,\"streetCode\":\"\",\"typeCulture\":1,\"urgentLinkman\":\"\",\"urgentLinkmanPhone\":\"\",\"userPhoto\":\"\",\"wage\":null,\"wageType\":-1,\"workType\":1},{\"address\":\"测试地址\",\"addressStay\":\"\",\"authLevel\":null,\"bankCode\":\"\",\"bankName\":\"\",\"bankNo\":\"\",\"bankType\":null,\"birthday\":\"20230-10-19\",\"cityCode\":\"330100\",\"companyId\":null,\"companyName\":\"总包单位001\",\"companyType\":10,\"contractDepartTime\":\"\",\"contractEndTime\":\"\",\"contractSignTime\":\"2023-01-01\",\"contractStartTime\":\"\",\"contractType\":1,\"contractUrl\":\"\",\"countyCode\":\"330101\",\"dateSource\":99,\"enforce\":\"执法一中队\",\"entryTime\":\"\",\"id\":\"1729741971574726658\",\"idCardBack\":\"\",\"idCardEnd\":\"\",\"idCardFace\":\"\",\"idCardNo\":\"360402199401******\",\"idCardOrg\":\"\",\"idCardStart\":\"\",\"isInsured\":null,\"isJob\":1,\"isPoor\":null,\"licUrl\":\"\",\"memoPoor\":\"\",\"monthAttenNum\":null,\"name\":\"姓名1\",\"nation\":\"10\",\"nativePlace\":\"江西省\",\"payDay\":10,\"personId\":null,\"phone\":\"180****0092\",\"projectAreaName\":\"浙江省杭州市杭州市\",\"projectId\":\"1729672615171489793\",\"projectName\":\"测试项目名00210021111221112314444123\",\"provinceCode\":\"330000\",\"provinceName\":\"浙江省\",\"realGrade\":99,\"sex\":1,\"status\":null,\"streetCode\":\"\",\"typeCulture\":10,\"urgentLinkman\":\"\",\"urgentLinkmanPhone\":\"\",\"userPhoto\":\"\",\"wage\":null,\"wageType\":1,\"workType\":6230400}],\"searchCount\":true,\"size\":\"10\",\"total\":\"99\"},\"message\":\"操作成功\"}'"
+      }, {
+        "name" : "expression",
+        "value" : "'$..message'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "F04S01_建筑工人查询"
+  }, {
+    "name" : "feature",
+    "value" : "F04_人员信息"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=3, reruns_delay=2)"
+  }, {
+    "name" : "suite",
+    "value" : "test_check"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCheck"
+  }, {
+    "name" : "host",
+    "value" : "XiaoXinYang"
+  }, {
+    "name" : "thread",
+    "value" : "14904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_check"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "'[]'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=3, reruns_delay=2)" ]
+  },
+  "source" : "764fd3b4bc1493d0.json",
+  "parameterValues" : [ "'[]'" ]
+}

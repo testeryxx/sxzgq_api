@@ -1,0 +1,129 @@
+{
+  "uid" : "2e705f002591f707",
+  "name" : "ID:(19)-未按时办理专户查询",
+  "fullName" : "test_check.TestCheck#test_project_check",
+  "historyId" : "68b19175ee38e2cd204e7a155e2e8ad1",
+  "time" : {
+    "start" : 1711351291250,
+    "stop" : 1711351291479,
+    "duration" : 229
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "------发送post请求------",
+      "time" : {
+        "start" : 1711351291250,
+        "stop" : 1711351291419,
+        "duration" : 169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://192.168.1.149:5500/api/v1/warn/findList'"
+      }, {
+        "name" : "data",
+        "value" : "'{\n \"pageNo\": 1,\n \"pageSize\": 20,\n \"projectStatusAccount\": \"2\",\n \"type\": 2,\n \"provinceCode\": \"140000\",\n \"cityCode\": \"140171\",\n \"enforceCode\": \"0\"\n}\n'"
+      }, {
+        "name" : "json",
+        "value" : "None"
+      }, {
+        "name" : "headers",
+        "value" : "{'Content-Type': 'application/json;charset=UTF-8', 'X-Token': '89efc1a5e2ce421abf877f6d6f97a78e'}"
+      }, {
+        "name" : "params",
+        "value" : "None"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "------提取响应数据------",
+      "time" : {
+        "start" : 1711351291419,
+        "stop" : 1711351291420,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "'{\"code\":0,\"data\":{\"countId\":\"\",\"current\":\"1\",\"hitCount\":false,\"maxLimit\":null,\"optimizeCountSql\":true,\"orders\":[],\"pages\":\"1\",\"records\":[{\"constructionCompanyName\":\"杭州汇龙景观工程有限公司\",\"contractorCompanyName\":\"中铁隧道局集团有限公司\",\"createTime\":\"2023-09-09 10:34:52\",\"id\":\"1019\",\"nowLsStatus\":2,\"overdueDays\":226,\"projectAreaName\":\"山西省-综改区\",\"projectAuditTime\":\"2023-08-10 10:35:03\",\"projectDataSource\":10,\"projectId\":\"1111111111111111114\",\"projectIndustry\":5,\"projectName\":\"杭州西湖博物馆提升工程\",\"projectStatus\":3,\"projectStatusAccount\":2,\"projectStatusBail\":1,\"projectStatusBillboard\":2,\"projectType\":1,\"remarks\":\"\",\"type\":2},{\"constructionCompanyName\":\"杭州正野装饰设计有限公司\",\"contractorCompanyName\":\"中铁十五局集团有限公司\",\"createTime\":\"2023-09-09 10:34:52\",\"id\":\"1018\",\"nowLsStatus\":2,\"overdueDays\":226,\"projectAreaName\":\"山西省-综改区\",\"projectAuditTime\":\"2023-08-10 10:35:00\",\"projectDataSource\":10,\"projectId\":\"1111111111111111113\",\"projectIndustry\":4,\"projectName\":\"杭州师范大学玉皇山校区改造工程-房建项目\",\"projectStatus\":2,\"projectStatusAccount\":2,\"projectStatusBail\":2,\"projectStatusBillboard\":3,\"projectType\":1,\"remarks\":\"\",\"type\":2},{\"constructionCompanyName\":\"杭州滨康市政建设有限公司\",\"contractorCompanyName\":\"和海建设科技集团有限公司\",\"createTime\":\"2023-09-09 10:34:52\",\"id\":\"1017\",\"nowLsStatus\":2,\"overdueDays\":226,\"projectAreaName\":\"山西省-综改区\",\"projectAuditTime\":\"2023-08-10 10:35:09\",\"projectDataSource\":10,\"projectId\":\"1111111111111111117\",\"projectIndustry\":3,\"projectName\":\"杭州市上天竺法喜讲寺扩建工程-大悲塔\",\"projectStatus\":3,\"projectStatusAccount\":2,\"projectStatusBail\":2,\"projectStatusBillboard\":3,\"projectType\":2,\"remarks\":\"\",\"type\":2},{\"constructionCompanyName\":\"杭州溪云园林绿化有限公司\",\"contractorCompanyName\":\"北京众创国际展览有限公司\",\"createTime\":\"2023-09-09 10:34:52\",\"id\":\"1016\",\"nowLsStatus\":2,\"overdueDays\":226,\"projectAreaName\":\"山西省-综改区\",\"projectAuditTime\":\"2023-08-10 10:35:07\",\"projectDataSource\":10,\"projectId\":\"1111111111111111116\",\"projectIndustry\":2,\"projectName\":\"之江路输水管廊及道路提升工程（之浦路-复兴路）2/2\",\"projectStatus\":2,\"projectStatusAccount\":2,\"projectStatusBail\":2,\"projectStatusBillboard\":3,\"projectType\":1,\"remarks\":\"\",\"type\":2},{\"constructionCompanyName\":\"杭州浙绿市政园林有限公司\",\"contractorCompanyName\":\"中铠建设集团有限公司\",\"createTime\":\"2023-09-09 10:34:52\",\"id\":\"1015\",\"nowLsStatus\":2,\"overdueDays\":226,\"projectAreaName\":\"山西省-综改区\",\"projectAuditTime\":\"2023-08-10 10:35:05\",\"projectDataSource\":10,\"projectId\":\"1111111111111111115\",\"projectIndustry\":1,\"projectName\":\"西湖景区涌金广场、钱王祠和柳浪闻莺等区域夜景灯光提升工程\",\"projectStatus\":5,\"projectStatusAccount\":2,\"projectStatusBail\":2,\"projectStatusBillboard\":2,\"projectType\":1,\"remarks\":\"\",\"type\":2},{\"constructionCompanyName\":\"杭州杭天建设有限公司\",\"contractorCompanyName\":\"中钜建设集团有限公司\",\"createTime\":\"2023-09-09 10:34:52\",\"id\":\"1014\",\"nowLsStatus\":2,\"overdueDays\":226,\"projectAreaName\":\"山西省-综改区\",\"projectAuditTime\":\"2023-08-10 10:34:58\",\"projectDataSource\":10,\"projectId\":\"1111111111111111112\",\"projectIndustry\":3,\"projectName\":\"宝石山及北山街夜景灯光安全改造工程\",\"projectStatus\":4,\"projectStatusAccount\":2,\"projectStatusBail\":2,\"projectStatusBillboard\":3,\"projectType\":2,\"remarks\":\"\",\"type\":2},{\"constructionCompanyName\":\"杭州新业环境建设有限公司\",\"contractorCompanyName\":\"上海希象建设有限公司\",\"createTime\":\"2023-09-09 10:34:52\",\"id\":\"1002\",\"nowLsStatus\":2,\"overdueDays\":226,\"projectAreaName\":\"山西省-综改区\",\"projectAuditTime\":\"2023-08-10 10:34:52\",\"projectDataSource\":10,\"projectId\":\"1111111111111111110\",\"projectIndustry\":1,\"projectName\":\"赤山埠水厂提升改造工程\",\"projectStatus\":1,\"projectStatusAccount\":2,\"projectStatusBail\":1,\"projectStatusBillboard\":3,\"projectType\":1,\"remarks\":\"\",\"type\":2}],\"searchCount\":true,\"size\":\"20\",\"total\":\"7\"},\"message\":\"操作成功\"}'"
+      }, {
+        "name" : "expression",
+        "value" : "'$..message'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "F06S02_未按时办理专户查询"
+  }, {
+    "name" : "feature",
+    "value" : "F06_预警管理"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=3, reruns_delay=2)"
+  }, {
+    "name" : "suite",
+    "value" : "test_check"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCheck"
+  }, {
+    "name" : "host",
+    "value" : "XiaoXinYang"
+  }, {
+    "name" : "thread",
+    "value" : "14904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_check"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "'[]'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=3, reruns_delay=2)" ]
+  },
+  "source" : "2e705f002591f707.json",
+  "parameterValues" : [ "'[]'" ]
+}

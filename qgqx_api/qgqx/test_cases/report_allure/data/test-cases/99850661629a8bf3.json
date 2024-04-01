@@ -1,0 +1,129 @@
+{
+  "uid" : "99850661629a8bf3",
+  "name" : "ID:(7)-组织机构列表（提供给当前权限）",
+  "fullName" : "test_check.TestCheck#test_project_check",
+  "historyId" : "fdcd46b1990f527e643cad894e605608",
+  "time" : {
+    "start" : 1711351283400,
+    "stop" : 1711351283523,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "------发送post请求------",
+      "time" : {
+        "start" : 1711351283400,
+        "stop" : 1711351283435,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://192.168.1.149:5500/api/v1/common/organsList'"
+      }, {
+        "name" : "data",
+        "value" : "None"
+      }, {
+        "name" : "json",
+        "value" : "None"
+      }, {
+        "name" : "headers",
+        "value" : "{'Content-Type': 'application/json;charset=UTF-8', 'X-Token': '89efc1a5e2ce421abf877f6d6f97a78e'}"
+      }, {
+        "name" : "params",
+        "value" : "None"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "------提取响应数据------",
+      "time" : {
+        "start" : 1711351283436,
+        "stop" : 1711351283436,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "'{\"code\":0,\"data\":[{\"code\":\"0\",\"createTime\":\"2024-02-22 13:25:35\",\"fullName\":\"全部\",\"id\":\"1\",\"isDeleted\":1,\"name\":\"全部\",\"type\":1},{\"code\":\"1\",\"createTime\":\"2024-01-03 09:51:54\",\"fullName\":\"执法一中队\",\"id\":\"10\",\"isDeleted\":1,\"name\":\"执法一中队\",\"type\":1},{\"code\":\"2\",\"createTime\":\"2024-01-03 09:52:20\",\"fullName\":\"执法二中队\",\"id\":\"20\",\"isDeleted\":1,\"name\":\"执法二中队\",\"type\":1},{\"code\":\"3\",\"createTime\":\"2024-01-03 09:52:39\",\"fullName\":\"执法三中队\",\"id\":\"30\",\"isDeleted\":1,\"name\":\"执法三中队\",\"type\":1},{\"code\":\"4\",\"createTime\":\"2024-01-03 09:52:58\",\"fullName\":\"执法四中队\",\"id\":\"40\",\"isDeleted\":1,\"name\":\"执法四中队\",\"type\":1},{\"code\":\"5\",\"createTime\":\"2024-01-03 09:53:17\",\"fullName\":\"执法五中队\",\"id\":\"50\",\"isDeleted\":1,\"name\":\"执法五中队\",\"type\":1}],\"message\":\"操作成功\"}'"
+      }, {
+        "name" : "expression",
+        "value" : "'$..message'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "F01S05_组织结构列表"
+  }, {
+    "name" : "feature",
+    "value" : "F01_统计分析"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=3, reruns_delay=2)"
+  }, {
+    "name" : "suite",
+    "value" : "test_check"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCheck"
+  }, {
+    "name" : "host",
+    "value" : "XiaoXinYang"
+  }, {
+    "name" : "thread",
+    "value" : "14904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_check"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "'[]'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=3, reruns_delay=2)" ]
+  },
+  "source" : "99850661629a8bf3.json",
+  "parameterValues" : [ "'[]'" ]
+}

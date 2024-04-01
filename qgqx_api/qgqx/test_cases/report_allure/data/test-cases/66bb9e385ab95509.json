@@ -1,0 +1,129 @@
+{
+  "uid" : "66bb9e385ab95509",
+  "name" : "ID:(3)-5个执法中队项目统计",
+  "fullName" : "test_check.TestCheck#test_project_check",
+  "historyId" : "8322e0f9992759e63a053a783a0ba323",
+  "time" : {
+    "start" : 1711351282887,
+    "stop" : 1711351283041,
+    "duration" : 154
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "------发送post请求------",
+      "time" : {
+        "start" : 1711351282888,
+        "stop" : 1711351282982,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://192.168.1.149:5500/api/v1/data_statistics/findOrgansList'"
+      }, {
+        "name" : "data",
+        "value" : "'{provinceCode: \"140000\", cityCode: \"140171\"}\n'"
+      }, {
+        "name" : "json",
+        "value" : "None"
+      }, {
+        "name" : "headers",
+        "value" : "{'Content-Type': 'application/json;charset=UTF-8', 'X-Token': '89efc1a5e2ce421abf877f6d6f97a78e'}"
+      }, {
+        "name" : "params",
+        "value" : "None"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "------提取响应数据------",
+      "time" : {
+        "start" : 1711351282982,
+        "stop" : 1711351282983,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "'{\"code\":0,\"data\":[{\"buildingProjectTotal\":155,\"completedProjectTotal\":2,\"enforce\":\"执法一中队\",\"enforceCode\":\"1\",\"finishedProjectTotal\":8,\"notStartedProjectTotal\":0,\"projectTotal\":223,\"shutdownProjectTotal\":33},{\"buildingProjectTotal\":10,\"completedProjectTotal\":0,\"enforce\":\"执法二中队\",\"enforceCode\":\"2\",\"finishedProjectTotal\":1,\"notStartedProjectTotal\":1,\"projectTotal\":12,\"shutdownProjectTotal\":0},{\"buildingProjectTotal\":1,\"completedProjectTotal\":1,\"enforce\":\"执法三中队\",\"enforceCode\":\"3\",\"finishedProjectTotal\":1,\"notStartedProjectTotal\":0,\"projectTotal\":4,\"shutdownProjectTotal\":1},{\"buildingProjectTotal\":1,\"completedProjectTotal\":0,\"enforce\":\"执法四中队\",\"enforceCode\":\"4\",\"finishedProjectTotal\":0,\"notStartedProjectTotal\":0,\"projectTotal\":1,\"shutdownProjectTotal\":0},{\"buildingProjectTotal\":1,\"completedProjectTotal\":0,\"enforce\":\"执法五中队\",\"enforceCode\":\"5\",\"finishedProjectTotal\":0,\"notStartedProjectTotal\":0,\"projectTotal\":2,\"shutdownProjectTotal\":0}],\"message\":\"操作成功\"}'"
+      }, {
+        "name" : "expression",
+        "value" : "'$..message'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "F01S01_全部项目查询"
+  }, {
+    "name" : "feature",
+    "value" : "F01_统计分析"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=3, reruns_delay=2)"
+  }, {
+    "name" : "suite",
+    "value" : "test_check"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCheck"
+  }, {
+    "name" : "host",
+    "value" : "XiaoXinYang"
+  }, {
+    "name" : "thread",
+    "value" : "14904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_check"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "'[]'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=3, reruns_delay=2)" ]
+  },
+  "source" : "66bb9e385ab95509.json",
+  "parameterValues" : [ "'[]'" ]
+}

@@ -1,0 +1,231 @@
+[ {
+  "uid" : "e18776879129c5f",
+  "name" : "ID:(9)-指定区域下级区域信息-列表",
+  "time" : {
+    "start" : 1711351283639,
+    "stop" : 1711351283740,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a48b8accfce1bf73",
+  "name" : "ID:(15)-劳资专管员查询",
+  "time" : {
+    "start" : 1711351288164,
+    "stop" : 1711351288491,
+    "duration" : 327
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b127c3bcb196a1ec",
+  "name" : "ID:(6)-指定区域下级区域信息-列表",
+  "time" : {
+    "start" : 1711351283299,
+    "stop" : 1711351283397,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7472f3b4e52995d2",
+  "name" : "ID:(13)-保证金备案审核查询",
+  "time" : {
+    "start" : 1711351286214,
+    "stop" : 1711351286420,
+    "duration" : 206
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "99850661629a8bf3",
+  "name" : "ID:(7)-组织机构列表（提供给当前权限）",
+  "time" : {
+    "start" : 1711351283400,
+    "stop" : 1711351283523,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6f01b8e8c769469c",
+  "name" : "ID:(8)-指定区域下级区域信息-列表",
+  "time" : {
+    "start" : 1711351283527,
+    "stop" : 1711351283636,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "41312a5d9b9c5dbd",
+  "name" : "ID:(4)-列表统计",
+  "time" : {
+    "start" : 1711351283044,
+    "stop" : 1711351283161,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2e705f002591f707",
+  "name" : "ID:(19)-未按时办理专户查询",
+  "time" : {
+    "start" : 1711351291250,
+    "stop" : 1711351291479,
+    "duration" : 229
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "613cd8999e2e5c32",
+  "name" : "ID:(16)-项目经理查询",
+  "time" : {
+    "start" : 1711351288494,
+    "stop" : 1711351290874,
+    "duration" : 2380
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "54d7621d3331edb0",
+  "name" : "ID:(24)-用户管理查询",
+  "time" : {
+    "start" : 1711351299854,
+    "stop" : 1711351299948,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e75961cb8ef20c93",
+  "name" : "ID:(23)-建设单位查询",
+  "time" : {
+    "start" : 1711351295752,
+    "stop" : 1711351299851,
+    "duration" : 4099
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4b2597557820a67c",
+  "name" : "ID:(22)-分包单位查询",
+  "time" : {
+    "start" : 1711351292309,
+    "stop" : 1711351295748,
+    "duration" : 3439
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "dcc7497a3cb1eb20",
+  "name" : "ID:(11)-新进项目审核查询",
+  "time" : {
+    "start" : 1711351285741,
+    "stop" : 1711351286030,
+    "duration" : 289
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "765fa6c9d8a8d3d3",
+  "name" : "ID:(12)-项目状态变更审核查询",
+  "time" : {
+    "start" : 1711351286033,
+    "stop" : 1711351286211,
+    "duration" : 178
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6f21c297da79367c",
+  "name" : "ID:(18)-未按时办理保证金查询",
+  "time" : {
+    "start" : 1711351291007,
+    "stop" : 1711351291246,
+    "duration" : 239
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "66bb9e385ab95509",
+  "name" : "ID:(3)-5个执法中队项目统计",
+  "time" : {
+    "start" : 1711351282887,
+    "stop" : 1711351283041,
+    "duration" : 154
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "27d7a4c215497068",
+  "name" : "ID:(20)-未按时落实维权告示牌查询",
+  "time" : {
+    "start" : 1711351291482,
+    "stop" : 1711351291641,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "adc2ce6ec29d1667",
+  "name" : "ID:(10)-项目管理查询",
+  "time" : {
+    "start" : 1711351283743,
+    "stop" : 1711351285738,
+    "duration" : 1995
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "42bcb421b545cd7d",
+  "name" : "ID:(5)-市级下面区域列表统计",
+  "time" : {
+    "start" : 1711351283165,
+    "stop" : 1711351283296,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "64532ac2f6d08721",
+  "name" : "ID:(21)-施工总包单位查询",
+  "time" : {
+    "start" : 1711351291652,
+    "stop" : 1711351292304,
+    "duration" : 652
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "764fd3b4bc1493d0",
+  "name" : "ID:(14)-建筑工人查询",
+  "time" : {
+    "start" : 1711351286429,
+    "stop" : 1711351288160,
+    "duration" : 1731
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b13a6ead60879132",
+  "name" : "ID:(25)-角色管理查询",
+  "time" : {
+    "start" : 1711351299959,
+    "stop" : 1711351300084,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6d9fb0668119dcf4",
+  "name" : "ID:(17)-案件流转查询",
+  "time" : {
+    "start" : 1711351290877,
+    "stop" : 1711351291004,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]
